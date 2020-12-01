@@ -1,2 +1,3 @@
 # react-chat
-A GraphQL/React/Redux chat app
+
+A chat  app with socket io and react/redux

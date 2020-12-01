@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+button{
+  margin: 4px;
+  padding: .5em;
+  border: none;
+  box-shadow: none;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: lightblue;
+  background: lightblue;
+}
+
+.container{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.nav-bar{
+  width: 100%;
+  border-bottom-width: 2px;
+  border-bottom-color: #c4c4c4;
+  border-bottom-style: solid;
+
+  a{
+    margin-left: 2px;
+    margin-right: 2px;
+    color: blue;
+    font-size: 1.1em;
+  }
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+}
+
+.left{
+  padding: 4px;
+  border: 1px solid #c4c4c4;
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    list-style-type: none;
+
+    li{
+      padding: 5px;
+      border-bottom-width: 2px;
+      border-bottom-color: #c4c4c4;
+      border-bottom-style: solid;
+      cursor: pointer;
+    }
+
+    li:hover{
+      background-color: lightgrey;
+      background: lightgrey;
+    }
+  }
+}
+
+.main{
+  
+  .messages{
+    ul{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 70vh;
+      list-style-type: none;
+    }
+
+    form{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+
+      textarea{
+        margin-right: 10px;
+        width: 90%;
+        resize: none;
+      }
+    }
+  }
+}
